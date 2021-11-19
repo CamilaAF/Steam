@@ -18,7 +18,7 @@ public class Principal {
 		}
 		
 		 String arquivo = "Aug19.csv";
-		  String diretorio = "C:\\Users\\phe\\Downloads\\Exercicio_Arquivos_Steam";
+		  String diretorio = "C:\\Users\\CamilaAF\\Downloads\\Exercicio_Arquivos_Steam";
 		  try{
 		  sc.geraArquivo(ano, mes, arquivo,diretorio);
 		 }catch(IOException e){

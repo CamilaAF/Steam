@@ -1,7 +1,7 @@
 package controller;
 import java.io.*;
 public class SteamController {
-	private static final String ARQ_STEAM = "C:\\Users\\phe\\Downloads\\Exercicio_Arquivos_Steam\\SteamCharts.csv";
+	private static final String ARQ_STEAM = "C:\\Users\\CamilaAF\\Downloads\\Exercicio_Arquivos_Steam\\SteamCharts.csv";
 	
 	public void buscaMesAnoValor(int ano, String mes, int valor) throws IOException{
 		File arq = new File(ARQ_STEAM);
